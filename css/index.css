@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.main{
+    background-color: #0039E9;
+    width: 100%;
+    height: 700px;
+}
+
+.about{
+    color: var(--fontPrimary);
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family:var(--fontPrimary);
+    font-weight: 400;
+    
+}
+
+
+
+
+:root{
+    --primaryColor:#0039E9;
+    --textColor:#121341;
+    --secondaryColor:#FB9B2A;
+    --fontPrimary:'Lato', sans-serif;
+
+}
+
+.navigation_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    font-family:var(--fontPrimary);
+    color: var(--textColor);
+}
+
+.navigation_list-items{
+    display: flex;
+}
+
+.logo{
+text-decoration: none;
+color:var(--fontPrimary) ;
+}
+
+.todo_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.todo_section--heading{
+    color: var(--textColor);
+    font-size: 24px;
+    font-family: var(--fontPrimary);
+    margin-bottom: 40px;
+}
+
+.todo_section--todoItem{
+   display: flex; 
+  min-width: 300px;
+
+}
+
+.todo_section--todoItem > div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.todo_section--todoItem  .todo_text{
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 10px;  
+    font-size: var(--fontPrimary);  
+}
+
+.todo_actions{
+    padding: 5px 16px;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid transparent;
+}
+
+.edit_btn{
+    background-color: var(--primaryColor);
+}
+
+.delete_btn{
+    background-color: var(--secondaryColor);
+    color: black
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 500px;
+}
+
+.form_input{
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid var(--textColor);
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 16px;
+    font-family: var(--fontPrimary);
+    margin-bottom: 20px;
+}
+
+.add_btn{
+    padding: 10px 16px;
+    background-color: var(--primaryColor);
+    color: white;
+}
