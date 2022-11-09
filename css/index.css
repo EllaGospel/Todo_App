@@ -7,9 +7,9 @@
 
 .main{
     background-color: #0039E9;
-    height: 1200px;
-    width: 700px;
-    margin-left: 60px;
+    height: 950px;
+    max-width: 100%;
+    
 }
 
 
