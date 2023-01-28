@@ -126,3 +126,6 @@ color:var(--fontPrimary) ;
     background-color: var(--primaryColor);
     color: white;
 }
+.form_input{
+  width: 80%;  
+}
