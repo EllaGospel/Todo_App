@@ -6,23 +6,22 @@
 
 
 .main{
-    background-color: #0039E9;
-    height: 950px;
+    background-color: #b3b9cb;
+    height:100% ;
     width: 100%; 
-}
-@media(max-width:320px){
-    .main{
-        
-        background-color: rgb(18, 111, 80);
-    }
 }
 .menu{
     display: flex;
-    
 }
 
+.todo_checkbox{
+     width: 20px;
+    height: 20px;
+} 
+input[type='checkbox']{
+    accent-color: red;
 
-
+}
 
 
 .about{
@@ -141,3 +140,24 @@ color:var(--fontPrimary) ;
 .form_input{
   width: 80%;  
 }
+.add_btn{
+    font-size: larger;
+}
+.add_btn:hover{
+    color: #FB9B2A;
+    background-color:orangered;
+}
+ 
+
+#Edit_btn,#Edit_btn{
+margin-bottom: 5px;
+margin-top: 7px;
+}
+#Delete_btn,#Delete_btn{
+margin-bottom: 5px;
+margin-top: 7px;
+}
+
+
+
+

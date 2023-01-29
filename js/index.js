@@ -47,7 +47,7 @@ function showTOdoOnTheScreen(todo){
     const li=document.createElement('li');
     li.classList.add("todo_section--todoItem")
    
-    li.innerHTML=   `<div> 
+    li.innerHTML=   `<div class="checkbox-and-actions"> 
     <input class="todo_checkbox" type="checkbox"/> 
     <span class="todo_text">${todo}</span>
     <div class=" todo_actions--wrapper">
