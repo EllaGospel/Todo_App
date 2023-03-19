@@ -3,13 +3,10 @@
     margin: 0;
 }
 
-
-
-.main{
+body{
     background-color: #b3b9cb;
-    height:100% ;
-    width: 100%; 
 }
+
 .menu{
     display: flex;
 }
@@ -72,7 +69,7 @@ color:var(--fontPrimary) ;
 
 .todo_section--heading{
     color: var(--textColor);
-    font-size: 24px;
+    font-size: 20px;
     font-family: var(--fontPrimary);
     margin-bottom: 40px;
 }
@@ -142,6 +139,9 @@ color:var(--fontPrimary) ;
 }
 .add_btn{
     font-size: larger;
+    width:60%;
+    margin-left: 50px;
+
 }
 .add_btn:hover{
     color: #FB9B2A;
@@ -156,6 +156,13 @@ margin-top: 7px;
 #Delete_btn,#Delete_btn{
 margin-bottom: 5px;
 margin-top: 7px;
+}
+.about1{
+    display: flex;
+    text-decoration: none;
+    gap: 10;
+    font-size: larger;
+
 }
 
 
